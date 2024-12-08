@@ -14,4 +14,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     - name: Upload folder to S3
-      run: aws s3 cp ./songs s3://dp1-spotify/ --recursive
+      run: aws s3 cp ./songs s3://sbx3sw-dp1-spotify/ --recursive
